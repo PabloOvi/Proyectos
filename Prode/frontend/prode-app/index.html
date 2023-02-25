@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.6.8, mobirise.com">
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:image:src" content="">
+  <meta property="og:image" content="">
+  <meta name="twitter:title" content="Home">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/fondologin-648x360.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>Login Prode8</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Kanit:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+</head>
+<body>
+  <div id="particles-js"></div>
+  
+
+    
+
+  
+
+    <div class="container-fluid">
+        <div class="row content-wrapper justify-content-center">
+            <div class="col-lg-3 offset-lg-1 mbr-form" data-form-type="formoid">
+                
+                    <div class="row">
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
+                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
+                            Oops...! some problem!
+                        </div>
+                    </div>
+                    <div id="login-input" class="dragArea row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <h1 class="mbr-section-title mb-4 display-2" style="color: white;"><strong>¡Ingresá!</strong></h1>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            
+                        </div>
+                        <div class="col-lg-12 col-md col-12 form-group mb-3" data-for="name">
+                            <input type="text" name="usuario" id="usuario" placeholder="Usuario" data-form-field="name" class="form-control" value="" >
+                        </div>
+                        <div class="col-lg-12 col-md col-12 form-group mb-3" data-for="clave">
+                            <input type="password" name="clave" id="clave" placeholder="Contraseña" data-form-field="phone" class="form-control" onkeypress="enterKeyPressed(event)" value="" >
+                        </div>
+                        <div class="col-lg-12 col-md col-12 form-group mb-3" data-for="dni">
+                            <input type="text" name="dni" id="dni" placeholder="DNI" data-form-field="dni"  class="form-control" onkeypress="enterKeyPressed(event)" value="" >
+                        </div>
+                        
+                        <div class="col-12 col-md-auto mbr-section-btn"><button id="login-boton" onclick="login();"  class="btn btn-secondary display-4">Entrar</button></div>
+                        <a href="registro.html"> <button id="login-image" class="btn btn-primary display-4" value="">Registrate acá</button></a>
+                    </div>
+                    
+                    
+                    
+                
+                
+            </div>
+            <div class="col-lg-7 offset-lg-1 col-12">
+                <div class="image-wrapper">
+                    <img class="w-100" id="login-image" src="assets/images/fondo-login.png" alt="Mobirise Website Builder">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+<script src="routes/routes.js"></script>
+<script src="framework/Sweetalert/sweetalert.min.js"></script>
+<script src="controllers/login.controller.js"></script>  
+<script>
+    function enterKeyPressed(event) {
+       if (event.keyCode == 13) {
+          
+          login();
+          return true;
+       } else {
+          return false;
+          
+       }
+    }
+ </script>
+  <script type="text/javascript">
+    document.oncontextmenu = rightClick;
+
+    function rightClick(clickEvent) {
+        clickEvent.preventDefault();
+        // return false;
+    }
+    </script>
+    <script>
+        document.onkeydown = function (e) { 
+    if (window.event.keyCode == 123 ||  e.button==2)    
+    return false;
+}
+    </script>
+    <script type="text/javascript" src="framework/particles/particles.js"></script>
+    <script type="text/javascript" src="framework/particles/demo/js/app.js"></script>
+</body>
+</html>

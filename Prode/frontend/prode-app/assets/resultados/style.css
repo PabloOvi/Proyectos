@@ -1,0 +1,532 @@
+
+/* Para el hover de navbar */
+
+
+.nav-link> :hover,a:hover{
+  background-color: #b3b3b3;
+  color: #FFC0CB;
+}
+
+#active{
+  background-color: rgb(158, 158, 158);
+}
+#ref-registro:hover{
+
+    background: #601e1e;
+
+}  
+
+#boton-prode{
+  display: block;
+  margin-left:40%;
+  
+}
+
+
+/* Prueba efecto fondo MAIN */
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg,#601e1e 50%, #331010 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:3s;
+}
+
+.bg3 {
+  animation-duration:3s;
+}
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+/* Fin Efecto MAIN */
+
+
+
+
+
+.prueba1{
+  
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  
+  text-align: center;
+  font-style: italic;
+  
+  
+  color: aliceblue;
+  background-color: #601e1e;
+  
+}
+
+
+
+.texto
+{
+background-color: #601e1e;
+color: aliceblue;
+
+}
+body{
+  
+    background-color: #601e1e;
+    overflow: visible;
+    
+}
+
+.imagen
+{
+  
+
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+#jornada2
+{
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: 90%;
+
+}
+#jornada3
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    
+
+
+}
+#jornada1
+{
+    align-items: center;
+    display: block;
+    margin-left: 5%;
+
+}
+.tituloj1
+{
+display: block;
+margin-left: 5%;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+
+.table-wrapper{
+  margin: 10px 70px 70px;
+  color: aliceblue;
+  box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.5 );
+}
+
+.fl-table {
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: normal;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  background-color: #5a1c1c;
+}
+
+.fl-table td, .fl-table th {
+  text-align: center;
+  padding: 8px;
+}
+
+.fl-table td {
+  border-right: 1px solid #601e1e;
+  font-size: 12px;
+}
+
+.fl-table thead th {
+  color: #ffffff;
+  background: #3b1212;
+}
+
+
+.fl-table thead th:nth-child(odd) {
+  color: #ffffff;
+  background: #3b1212;
+}
+
+.fl-table tr:nth-child(even) {
+  background: #F8F8F8;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+  .fl-table {
+      display: block;
+      width: 100%;
+      
+      
+      
+  }
+  .table-wrapper:before{
+      content: "Scroll horizontally >";
+      display: block;
+      text-align: right;
+      font-size: 11px;
+      color: blue;
+      padding: 0 0 10px;
+  }
+  .fl-table thead, .fl-table tbody, .fl-table thead th {
+      display: block;
+      
+  }
+  .fl-table thead th:last-child{
+      border-bottom: none;
+  }
+  .fl-table thead {
+      float: left;
+  }
+  .fl-table tbody {
+      width: auto;
+      position: relative;
+      overflow-x: auto;
+  }
+  .fl-table td, .fl-table th {
+      padding: 20px .625em .625em .625em;
+      height: 60px;
+      vertical-align: middle;
+      box-sizing: border-box;
+      overflow-x: hidden;
+      overflow-y: auto;
+      width: 120px;
+      font-size: 13px;
+      text-overflow: ellipsis;
+      
+      
+  }
+  .fl-table thead th {
+      text-align: left;
+      border-bottom: 1px solid #f7f7f9;
+  }
+  .fl-table tbody tr {
+      display: table-cell;
+  }
+  .fl-table tbody tr:nth-child(odd) {
+      background: none;
+  }
+  .fl-table tr:nth-child(even) {
+      background: transparent;
+  }
+  .fl-table tr td:nth-child(odd) {
+      background: #F8F8F8;
+      border-right: 1px solid #E6E4E4;
+  }
+  .fl-table tr td:nth-child(even) {
+      border-right: 1px solid #E6E4E4;
+  }
+  .fl-table tbody td {
+      display: block;
+      
+      text-align: center;
+  }
+}
+
+
+.imagenes-fixture{
+  /*
+position: absolute;
+margin: auto;
+width: auto;
+left: 50%;
+display: block;
+*/
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+#boton-registro{
+
+  margin-left: 0%;
+}
+
+#registro-input{
+
+  display: block;
+  margin-top: 9%;
+  padding-left: 60%;
+  width: 90%;
+}
+#registro-image{
+  position: fixed;
+  
+  margin-left: 0%;
+  top: 20%;
+  margin-top: 0%;
+
+}
+
+
+#texto-resultados{
+  
+  padding-left: 5%;
+}
+
+/* Preguntas frecuentes */
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color:#212529;
+ 
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 60%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-top: 1%;
+  margin-left: 20%;
+  
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #212529;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: rgb(200, 200, 200);
+  
+  display: none;
+  width: 60%;
+  overflow: hidden;
+  
+  margin-left: 20%;
+}
+p{
+  margin-top: 2%;
+
+}
+/* Pago */
+
+.pago-imagen{
+  
+  position: fixed;
+  top: 20%;
+  left: 5%;
+  width: 40%;
+  z-index:-1;
+  
+}
+.pago-texto{
+  position: fixed;
+  top: 40%;
+  left: 8%;
+  font-size: 120%;
+  width:15% ;
+  color: white;
+  background-color: black;
+ /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 2px, rgb(0, 0, 0) 0px 0px 0px 2px;*/
+ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  z-index: 1;
+}
+
+.qr-pago{
+
+  position: fixed;
+  top: 50%;
+  left: 20%;
+ 
+  z-index:1;
+  
+
+}
+.pago-valor{
+  position: fixed;
+  top: 75%;
+  left: 17%;
+  color: lightgray;
+  font-size: 100%;
+}
+
+.mercado-pago{
+  position: fixed;
+  top: 20%;
+  left: 55%;
+  width: 40%;
+
+}
+
+.mercado-texto{
+  position: fixed;
+  top: 50%;
+  left: 65%;
+  font-size: 120%;
+  width:15% ;
+  color: white;
+  background-color: black;
+ /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 2px, rgb(0, 0, 0) 0px 0px 0px 2px;*/
+ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  z-index: 1;
+}
+
+
+
+/* Efecto fondo RESULTADOS */
+.area{
+ 
+  
+ 
+}
+
+.circles{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.circles li{
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+  
+}
+
+.circles li:nth-child(1){
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 10s;
+}
+
+.circles li:nth-child(3){
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 3s;
+}
+
+.circles li:nth-child(4){
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 12s;
+}
+
+.circles li:nth-child(5){
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 50s;
+}
+
+.circles li:nth-child(9){
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+  0%{
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+      border-radius: 0;
+  }
+
+  100%{
+      transform: translateY(-1000px) rotate(720deg);
+      opacity: 0;
+      border-radius: 50%;
+  }
+
+}
